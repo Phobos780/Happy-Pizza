@@ -40,6 +40,8 @@ button .navbar-toggler .navbar-toggler-icon {
     color: #f3a20b;
 }
 
+    /*__ FOOTER __ */
+
 #footer{
     border-top: 3px solid rgb(99, 57, 3);
     
@@ -57,3 +59,12 @@ button .navbar-toggler .navbar-toggler-icon {
 #footer #fLink {
     margin: 30px 0;
 }
+
+#footer a:hover {
+    background-color: #ffff;
+    margin-bottom: 2px;
+
+}
+
+/*! sei qui. come agg efeto hover*/
+    /*__ FOOTER END __ */
