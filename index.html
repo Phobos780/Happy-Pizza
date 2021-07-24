@@ -1,0 +1,180 @@
+
+<!--   ** TO DO LIST **
+  ! 1. jambotron non è responsive!
+  ! 2. pulsante menu colore.
+
+-->
+
+
+
+
+<!doctype html>
+<html lang="it">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style/main.css">
+
+    <title>Pizzeria Happy pizza</title>
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light"
+     style="background-color: #23293b;">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" width="140" height="70" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>   
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto"><!-- ml-auto = link assinistra. mr-auto = link adestra -->
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Chi siamo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pizzeria</a>
+          </li>        
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ristorante</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contatti</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- JUMBOTRON -->
+    <div class="jumbotron text-center jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-1">Benvenuto!</h1>
+        <button type="button" class="btn btn-outline-warning btn">ORDINA ONLINE</button>
+      </div>
+    </div>
+    <!-- JUMBOTRON END -->
+
+    <div class="container-fluid"><!-- ** fluid ** serve per rendere la pagina a tutto schermo, dal bordo al bordo, in orizontale. -->
+      <div class="row">
+        <div class="col-lg-4"><!--! inserendo prefisso *sm(o xl md sm)* dico al pc che layout a 3(o 4 o 5 fino a 12 colonne) colonne valido solamente per gli schermi piugrandi del sm(small-576), sotto 576px diventa a una colonna. se per esempio inserisco *md* vale stessa regola ma per gli schermi magiori di md = medium = 768px. ** col-xl-6 ** = col-colonna xl-extralarge 6=con il num 6 dicciamo al pc che la prima colonna deve ocupare lo spazio di 6 colonne(cioè 50%) e le altre il resto.  -->
+          <h3 >Il Digital Marketing 1</h3> 
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p> 
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+        </div>
+        <div class="col-lg-4"> <!--!  ** col-xl-3 ** = col-colonna xl-extralarge 3=con il num 3 dicciamo al pc che la secona colonna deve ocupare lo spazio di 3 colonne(cioè 25%) e le altre il resto.  -->
+          <h3 >Il Digital Marketing 2</h3> 
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p> 
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+        </div>
+        <div class="col-lg-4"> <!--!  ** col-xl-3 ** = col-colonna xl-extralarge il numero di colonne (su 12 colonne) che deve prendere il nostro oggetto. ess: con il num 3 dicciamo al pc che la secona colonna deve ocupare lo spazio di 3 colonne(cioè 25%) e le altre il resto.  -->
+          <h3 >Il Digital Marketing 3</h3> 
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p> 
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3">  
+          <h4>Amalia Freglioje</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3"> 
+          <h4>Ciccio Pasticcio</h4>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>    
+        </div>
+      
+        <div class="col-sm-6 col-md-4 col-lg-3">     
+         <h4>Pinco Pallo</h4>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <h4>Anna Pannocchia</h4>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+        </div>
+      
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <h4>Pinco Pallino</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
+        </div>
+      
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <h4>Herbert Ballerina</h4>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+        <div class="row" id="footer">
+          <div class="col-md-4">
+            <div class="textFooter">
+              <h3 >DOVE SIAMO</h3> 
+              <p>Ristorante Pizzeria Happy Pizza
+                Via Largo e lungo, 7 44124 Ferrara</p> 
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="textFooter">
+              <h3 >ORARI DI APERTURA</h3> 
+              <p>Pranzo: dalle 12:00 alle 14.30 Cena: dalle 19:30 alle 01.00 Chiuso il mercoledì</p> 
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="textFooter">
+              <h3 >CONTATTI</h3> 
+              <p>Tel. 0532 2111234</p> 
+            </div>
+          </div>
+          <div class="col-12 text-center">
+            <h5>© 2020 Ristorante Pizzeria Happy Pizza. All Rights Reserved. Privacy | Content by TSN | Web Design by Taras Mykhaylovskyy.</h5> 
+          </div>
+          <div class="container">
+            <div class="row justify-content-center" id="socilLinks">
+              <div class="col-1" id="fLink">
+                <a href="https://www.facebook.com/taras.mykhaylovskyy">
+                  <img src="https://img.icons8.com/plumpy/24/000000/facebook-new.png"/>
+                </a>
+              </div>
+              <div class="col-1" id="fLink">
+                <a href="https://www.instagram.com/phobos780/">
+                  <img src="https://img.icons8.com/material-outlined/30/000000/instagram-new--v1.png"/>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+          
+          
+  
+        </div><!-- FOOTER END -->
+
+      
+    </div><!--FLUID CONTENT END-->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

@@ -1,0 +1,59 @@
+
+body {
+    background: url(../images/p4.png) no-repeat center / cover;
+}
+
+
+        /* ___ N A V ___ */
+
+nav button {
+    margin-right: 30px;
+}
+
+nav li a {
+    margin: 0 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #c0780b !important;
+  }
+
+  .navbar-light .navbar-nav a:hover {
+    color: #d69636 !important;
+  }
+
+  .navbar-light .nav-item.active .nav-link {
+      color: #ffd700 !important;
+      text-decoration: underline;
+
+  }
+
+button .navbar-toggler .navbar-toggler-icon {
+      background-color: #c0780b !important;
+  } /*! sei fermo qui. colore del bottone NAV da cambiare */
+
+   /* ___ N A V   E N D ___ */
+
+.jumbotron{
+    padding: 250px 0;
+    background: linear-gradient(rgba( 0, 0, 0, 0.7),rgba(0, 0, 0, 0.1)), url(../images/p1.jpg) no-repeat center / cover;/*RGBA = RGB sono colori, mentre "a" sta per il livello di trasparenza. se sono 2 uno regola colori su e l'altro giu. */
+    color: #f3a20b;
+}
+
+#footer{
+    border-top: 3px solid rgb(99, 57, 3);
+    
+}
+
+#footer .textFooter {
+    margin: 70px 30px;
+}
+
+#footer {
+    background: linear-gradient(rgba(201, 175, 197, 0.1), rgba(0,0,0,0.2));
+    /*mi raccomando LINEAR GRADIENT ci devono essere per forza 2!*/
+}
+
+#footer #fLink {
+    margin: 30px 0;
+}
