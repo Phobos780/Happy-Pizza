@@ -37,7 +37,7 @@ button .navbar-toggler .navbar-toggler-icon {
 .jumbotron{
     padding: 250px 0;
     background: linear-gradient(rgba( 0, 0, 0, 0.7),rgba(0, 0, 0, 0.1)), url(../images/p1.jpg) no-repeat center / cover;/*RGBA = RGB sono colori, mentre "a" sta per il livello di trasparenza. se sono 2 uno regola colori su e l'altro giu. */
-    color: #160f01;
+    color: #f3a20b;
 }
 
 #footer{
