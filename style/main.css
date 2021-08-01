@@ -54,14 +54,12 @@ h6 {
     font-size: 3rem !important;
 }
 
-p #text1 {
-    color: #f3a20b !important;
-}
 
 
 
 #flag {
     text-align: center;
+    margin: 20px 0;
 }
 
     /* __ BODY END __ */
