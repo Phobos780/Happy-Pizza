@@ -11,6 +11,10 @@ nav button {
     margin-right: 30px;
 }
 
+.navbar-toggler {    
+    border: 3px solid rgb(57, 66, 94) !important;
+}
+
 
 nav li a {
     margin: 0 30px;
