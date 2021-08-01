@@ -48,6 +48,24 @@ button .navbar-toggler .navbar-toggler-icon {
 
     /*__ FOOTER __ */
 
+    /* __ BODY __ */
+
+h6 {
+    font-size: 3rem !important;
+}
+
+p #text1 {
+    color: #f3a20b !important;
+}
+
+
+
+#flag {
+    text-align: center;
+}
+
+    /* __ BODY END __ */
+
 #footer{
     border-top: 3px solid rgb(99, 57, 3);
     
