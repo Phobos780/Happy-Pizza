@@ -12,7 +12,7 @@ nav button {
 }
 
 .navbar-toggler {    
-    border: 3px solid rgb(57, 66, 94) !important;
+    border: 3px solid rgb(114, 71, 7) !important;
 }
 
 
@@ -34,10 +34,6 @@ nav li a {
 
   }
 
-button .navbar-toggler .navbar-toggler-icon {
-      background-color: #c0780b !important;
-  } /*! sei fermo qui. colore del bottone NAV da cambiare */
-
    /* ___ N A V   E N D ___ */
 
 .jumbotron{
@@ -46,23 +42,32 @@ button .navbar-toggler .navbar-toggler-icon {
     color: #f3a20b;
 }
 
-    /*__ FOOTER __ */
-
     /* __ BODY __ */
 
 h6 {
     font-size: 3rem !important;
 }
 
+#bossPictur img {
+    transition: .7s;
+    
+}
 
-
+#bossPictur img:hover {
+    
+    transform: scale(1.1);
+}
 
 #flag {
     text-align: center;
     margin: 20px 0;
 }
 
+
+
     /* __ BODY END __ */
+
+    /*__ FOOTER __ */
 
 #footer{
     border-top: 3px solid rgb(99, 57, 3);
