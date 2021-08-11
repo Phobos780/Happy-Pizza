@@ -54,6 +54,12 @@ h6 {
     margin: 20px 0;
 }
 
+#bossPictur img {
+    
+    margin-bottom: 35px;
+    
+}
+
 #backGroundTwo {
     background-image: url(../images/p3.jpg);
 }
