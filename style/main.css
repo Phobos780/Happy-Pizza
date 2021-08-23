@@ -65,17 +65,21 @@ h6 {
 }
 
 /* 
-   ! sei fermo qui: parte del menu. 
+ 
 */
 
 #backGroundTwo h4 {
     color: aliceblue;
-    
+
 }
 
-#imageMenu img {
-    width: 500px;
+
+.imageMenu img {
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 /*! SEI FERMO QUI. IMMAGINI DEL MENU / FARE DELLA STESSA GRANDEZZA*/
 
     /* __ BODY END __ */
