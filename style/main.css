@@ -75,9 +75,13 @@ h6 {
 
 
 .imageMenu img {
-    
+    width: 500px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.overlay {
+    width: 300px;
 }
 
 
@@ -125,19 +129,6 @@ h6 {
         
         transform: scale(1.1);
     }
-    /*
-    .imageMenu img {
-        rotate: 50%;
-        transition: .9s;
-    }
-
-    .imageMenu img:hover {
-        
-        filter:brightness(50%);
-    width="500" height="500"    
-        
-    }
-*/
 
     .containerMenu {
         position: relative;
@@ -150,12 +141,12 @@ h6 {
         height: auto;
         
       }
-      
+      /*! sei fermo qui overlay è troppo grande */
       .overlay {
         position: absolute;
         bottom: 0;
         left: 0;
-        right: 0;
+        right: 0px;
         background-color: #03232c;
         overflow: hidden;
         width: 100%;
