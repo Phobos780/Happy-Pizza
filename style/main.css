@@ -64,9 +64,6 @@ h6 {
     background-image: url(../images/p3.jpg);
 }
 
-/* 
- 
-*/
 
 #backGroundTwo h4 {
     color: aliceblue;
@@ -169,7 +166,7 @@ h6 {
       
       .text {
         white-space: nowrap; 
-        color: white;
+        color: #c0780b;
         font-size: 20px;
         position: absolute;
         overflow: hidden;
