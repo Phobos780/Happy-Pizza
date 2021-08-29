@@ -89,6 +89,18 @@ h6 {
     margin-bottom: 30px;
 }
 
+#adress h5 {
+    margin: 60px;
+    font-size: 1.9rem !important;
+}
+/*! sei fermo qui: 
+1: link menu pizza / ristorante da aggiustare su schermi piccoli.
+2: bottone mappa da centrare e agg posizione mappa.
+*/
+#map button {
+    margin-top: 70px;
+    color: crimson;
+}
 
 
 
